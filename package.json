@@ -1,0 +1,23 @@
+{
+  "name": "nodegit-sunos",
+  "version": "1.0.0",
+  "description": "nodegit compiled for sunos",
+  "main": "./dist/nodegit.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "dependencies": {
+    "fs-extra": "~0.26.2",
+    "lodash": "^4.13.1",
+    "nan": "^2.2.0",
+    "node-gyp": "^3.3.1",
+    "node-pre-gyp": "~0.6.15",
+    "promisify-node": "~0.3.0"
+  },
+  "binary": {
+    "module_name": "nodegit",
+    "module_path": "./build/Release/"
+  },
+  "license": "ISC"
+}
